@@ -5,3 +5,5 @@ class MainClass {
         Console.WriteLine ("Bem vindo ao C#");
     }
 }
+
+// mcs -out:Main.exe 'Dia_01_-_28-04_-_Introdução_ao_.NET/C#-Aula_01-Exemplo.cs' ; mono Main.exe

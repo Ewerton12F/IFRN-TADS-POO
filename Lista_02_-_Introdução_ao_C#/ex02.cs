@@ -9,4 +9,4 @@ class MainClass {
     }
 }
 
-// mcs -out:Main.exe 'Lista02_-_Introdução_ao_C#/ex02.cs' ; mono Main.exe
+// mcs -out:Main.exe 'Lista_02_-_Introdução_ao_C#/ex02.cs' ; mono Main.exe

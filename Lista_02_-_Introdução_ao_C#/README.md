@@ -9,24 +9,21 @@
     Bem-vindo ao C#, Gilbert
     ```
     
-    [ex01.cs](https://github.com/Ewerton12F/IFRN-TADS-POO/blob/master/Lista02_-_Introdu%C3%A7%C3%A3o_ao_C%23/ex01.cs)
+    [ex01.cs](https://github.com/Ewerton12F/IFRN-TADS-POO/blob/master/Lista_02_-_Introdu%C3%A7%C3%A3o_ao_C%23/ex01.cs)
     
     ```csharp
     using System;
     
     class MainClass {
         public static void Main (string[] args) {
-            double b, h, a;
-            Console.WriteLine("Digite a base do triangulo: ");
-            b = double.Parse(Console.ReadLine());
-            Console.WriteLine("Digite a altura do triangulo: ");
-            h = double.Parse(Console.ReadLine());
-            a = b * h / 2;
-            Console.WriteLine($"Área = {a:0.00}");
+            string nome;
+            Console.WriteLine("Digite seu primeiro nome:");
+            nome = Console.ReadLine();
+            Console.WriteLine($"Bem-vindo ao C#, {nome}");
         }
     }
     
-    // mcs -out:Main.exe 'Dia_02_-_29-04_-_Introdução_ao_C#/C#-Aula 02-Exemplo.cs' ; mono Main.exe
+    // mcs -out:Main.exe 'Lista_02_-_Introdução_ao_C#/ex01.cs' ; mono Main.exe
     ```
     
 2. Ler o nome completo de uma pessoa e mostrar a mensagem: “`Bem-vindo ao C#, <xxx>`”, onde `<xxx>` é o primeiro nome da pessoa.
@@ -38,7 +35,7 @@
     Bem-vindo ao C#, Gilbert
     ```
     
-    [ex02.cs](https://github.com/Ewerton12F/IFRN-TADS-POO/blob/master/Lista02_-_Introdu%C3%A7%C3%A3o_ao_C%23/ex02.cs)
+    [ex02.cs](https://github.com/Ewerton12F/IFRN-TADS-POO/blob/master/Lista_02_-_Introdu%C3%A7%C3%A3o_ao_C%23/ex02.cs)
     
     ```csharp
     using System;
@@ -52,7 +49,7 @@
         }
     }
     
-    // mcs -out:Main.exe 'Lista02_-_Introdução_ao_C#/ex02.cs' ; mono Main.exe
+    // mcs -out:Main.exe 'Lista_02_-_Introdução_ao_C#/ex02.cs' ; mono Main.exe
     ```
     
 3. Calcular a média parcial de uma disciplina semestral, dadas as notas dos 1º e 2º bimestres (pesos 2 e 3). Considerar as notas com valores inteiros entre zero e cem.
@@ -67,7 +64,7 @@
     Média parcial = 62
     ```
     
-    [ex03.cs](https://github.com/Ewerton12F/IFRN-TADS-POO/blob/master/Lista02_-_Introdu%C3%A7%C3%A3o_ao_C%23/ex03.cs)
+    [ex03.cs](https://github.com/Ewerton12F/IFRN-TADS-POO/blob/master/Lista_02_-_Introdu%C3%A7%C3%A3o_ao_C%23/ex03.cs)
     
     ```csharp
     using System;
@@ -84,7 +81,7 @@
         }
     }
     
-    // mcs -out:Main.exe 'Lista02_-_Introdução_ao_C#/ex03.cs' ; mono Main.exe
+    // mcs -out:Main.exe 'Lista_02_-_Introdução_ao_C#/ex03.cs' ; mono Main.exe
     ```
     
 4. Calcular área, perímetro e diagonal de um retângulo, dados sua base e sua altura. Considerar que os valores podem ser números reais. Mostrar o resultado com duas casas decimais.
@@ -97,7 +94,7 @@
     Área = 12.00 - Perímetro = 14.00 - Diagonal = 5.00
     ```
     
-    [ex04.cs](https://github.com/Ewerton12F/IFRN-TADS-POO/blob/master/Lista02_-_Introdu%C3%A7%C3%A3o_ao_C%23/ex04.cs)
+    [ex04.cs](https://github.com/Ewerton12F/IFRN-TADS-POO/blob/master/Lista_02_-_Introdu%C3%A7%C3%A3o_ao_C%23/ex04.cs)
     
     ```csharp
     using System;
@@ -114,7 +111,7 @@
         }
     }
     
-    // mcs -out:Main.exe 'Lista02_-_Introdução_ao_C#/ex04.cs' ; mono Main.exe
+    // mcs -out:Main.exe 'Lista_02_-_Introdução_ao_C#/ex04.cs' ; mono Main.exe
     ```
     
 5. Calcular a distância, em quilômetros, percorrida pela luz em um intervalo de tempo no formato “HH:MM:SS”. Considerar a velocidade de luz como 300 mil km/s.
@@ -126,7 +123,7 @@
     A luz percorreu 2700000000 km nesse intervalo
     ```
     
-    [ex05.cs](https://github.com/Ewerton12F/IFRN-TADS-POO/blob/master/Lista02_-_Introdu%C3%A7%C3%A3o_ao_C%23/ex05.cs)
+    [ex05.cs](https://github.com/Ewerton12F/IFRN-TADS-POO/blob/master/Lista_02_-_Introdu%C3%A7%C3%A3o_ao_C%23/ex05.cs)
     
     ```csharp
     using System;
@@ -151,5 +148,5 @@
         }
     }
     
-    // mcs -out:Main.exe 'Lista02_-_Introdução_ao_C#/ex05.cs' ; mono Main.exe
+    // mcs -out:Main.exe 'Lista_02_-_Introdução_ao_C#/ex05.cs' ; mono Main.exe
     ```

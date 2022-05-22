@@ -2,8 +2,8 @@ using System;
 
 class MainClass {
     public static void Main (string[] args) {
-        string[] p1 = Console.ReadLine().Split(" ");
-        string[] p2 = Console.ReadLine().Split(" ");
+        string[] p1 = Console.ReadLine().Split(' ');
+        string[] p2 = Console.ReadLine().Split(' ');
 
         double x1 = double.Parse(p1[0]);
         double y1 = double.Parse(p1[1]);
